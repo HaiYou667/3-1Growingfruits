@@ -5,11 +5,28 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>增加角色</title>
+<style type="text/css">
+	th{
+	text-align:right;
+	}
+	
+	input{
+	background:none transparent scroll repeat 0% 0%;
+	border:1px solid #58a4fc;
+	
+	}
+	select{
+	background-color: transparent;
+	  	border:#58a4fc solid 1px;
+	 	
+	}
+</style>
+</style>
 </head>
 <body>
-      <h1>角色管理>>增加角色</h1>
+      <h2>角色管理>>增加角色</h2>
       <form action="${pageContext.request.contextPath}/background/role/addrole" method="post">
-      <table style="width: 100%;border: 1px solid;">
+      <table style="width: 70%;">
            <tr>
              <th>角色名称：</th>
              <td>
